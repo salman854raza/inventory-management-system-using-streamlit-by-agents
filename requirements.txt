@@ -1,13 +1,19 @@
+# Core
 streamlit==1.32.0
-Pillow==10.1.0
-python-dotenv==1.0.0
+Pillow==10.2.0  # Updated to a version with Python 3.13 support
+
+# Twilio/WhatsApp
 twilio==8.3.0
+python-dotenv==1.0.0
+
+# Gemini AI
 google-generativeai==0.3.2
-pandas==2.1.4
-numpy==1.26.2
-python-dateutil==2.8.2
-pytz==2023.3.post1
-requests==2.31.0
-smtplib==1.0.1  # Built-in, but explicitly listed for clarity
-email-validator==2.0.0.post2
-pyyaml==6.0.1
+
+# Data/Utilities
+pandas==2.2.1
+numpy==1.26.4
+python-dateutil==2.9.0
+pytz==2024.1
+
+# Email
+email-validator==2.1.1
