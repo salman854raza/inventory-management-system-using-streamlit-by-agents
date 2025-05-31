@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Password protection configuration
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin123")  # Change this to a strong password or set via environment variable
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")  # Change this to a strong password or set via environment variable
 
 # Custom CSS for styling
 def local_css(file_name):
