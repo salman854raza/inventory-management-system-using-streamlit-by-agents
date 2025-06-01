@@ -451,13 +451,13 @@ def update_dashboard():
 if 'update_thread' not in st.session_state:
     st.session_state.update_thread = threading.Thread(target=update_dashboard, daemon=True)
     st.session_state.update_thread.start() streamlit as st
-from PIL import Image
-import time
-import threading
-import json
-import os
-from datetime import datetime
-from main import EmailAgent, InventoryManager, InventorySystem, WhatsAppAgent  # Assuming your code is in inventory_system.py
+# from PIL import Image
+# import time
+# import threading
+# import json
+# import os
+# from datetime import datetime
+# from main import EmailAgent, InventoryManager, InventorySystem, WhatsAppAgent  # Assuming your code is in inventory_system.py
 
 # Set page config
 st.set_page_config(
